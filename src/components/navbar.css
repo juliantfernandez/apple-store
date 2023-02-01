@@ -1,0 +1,48 @@
+.menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    justify-content: center;
+    max-height: 100%;
+    height: 45px;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgba(220, 218, 218, 0.8);
+    padding-right: 50px;
+}
+
+.menu li a:hover{
+    color: white;
+}
+
+.fa-brands, .fa-apple{
+    color: rgba(220, 218, 218, 0.8);
+    padding-right: 50px;
+}
+
+.fa-brands:hover, .fa-apple:hover{
+    color: white;
+}
+
+.fa-solid, .fa-bag-shopping{
+    color: rgba(220, 218, 218, 0.8);
+}
+
+.fa-solid:hover, .fa-bag-shopping:hover{
+    color: white;
+}
+
+.cartWidget{
+    display: flex;
+}
+
+.cartWidget p{
+    color: white;
+    padding: 0px 10px 0px 10px;
+}
