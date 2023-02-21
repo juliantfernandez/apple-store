@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "nombre": "Iphone 14 Pro Max",
+        "categoria": "iPhone",
+        "stock": 5,
+        "precio": 299,
+        "imagenProducto": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone14pro-202209?wid=680&hei=528&fmt=p-jpg&qlt=95&.v=1663611329492"
+    }, 
+    {
+        "id": 2, 
+        "nombre": "Macbook Air M1",
+        "categoria": "Macbook",
+        "stock": 3,
+        "precio": 299,
+        "imagenProducto": " "
+
+    },
+    {
+        "id": 3,
+        "nombre": "Ipad",
+        "categoria": "Ipad",
+        "stock": 7,
+        "precio": 299,
+        "imagenProducto": " "
+    }
+]

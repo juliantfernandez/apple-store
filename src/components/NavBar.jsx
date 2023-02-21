@@ -1,13 +1,19 @@
 import './navbar.css'
 import CartWidget from './CartWidget'
-let menu = ['Tienda', 'Mac', 'Ipad', 'iPhone', 'Watch', 'Airpods', 'TV y Casa', 'Solo en Apple', 'Accesorios', 'Soporte']
+import { Link, NavLink } from 'react-router-dom'
+let menu = [ 'Macbook', 'Ipad', 'iPhone', 'Watch', 'Airpods', 'TV y Casa', 'Solo en Apple', 'Accesorios']
+
+
 
 const NavBar = () => {
     return(
         <nav>
             <ul className='menu'>
-                <a href='{#}'><i class="fa-brands fa-apple"></i> </a>
-                {menu.map( (item) => <li><a href="{#}">{item} </a></li>)}
+                <Link to={'/'}><i class="fa-brands fa-apple"></i> </Link>
+                {menu.map( (item) =>
+                    <li key={item}>
+                         <NavLink to={`/${item}`}>{item} </NavLink>
+                    </li>)}
                 <a href='{#}'>
                     <CartWidget carrito={[0]}/>
                 </a>
